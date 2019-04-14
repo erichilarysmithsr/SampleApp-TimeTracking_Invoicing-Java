@@ -13,3 +13,8 @@ tasks:
       trackBy: ''
       array: ''
       input: {}
+paths:
+  /paths0:
+    get:
+      action: linkedin/companies.get
+      accounts: {}
