@@ -18,3 +18,8 @@ paths:
     get:
       action: linkedin/companies.get
       accounts: {}
+tests:
+  test:
+    action: linkedin/companies.get
+    accounts: {}
+    input: {}
