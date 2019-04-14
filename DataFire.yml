@@ -2,3 +2,14 @@ options:
   cors: true
 actions:
   action: ./actions/action.js
+tasks:
+  task:
+    schedule: cron(5 8 ? * 0)
+    action: linkedin/companies.get
+    accounts: {}
+    monitor:
+      action: linkedin/companies.get
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input: {}
