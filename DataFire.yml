@@ -39,3 +39,8 @@ tests:
     action: linkedin/companies.get
     accounts: {}
     input: {}
+  test1:
+    action: hubspot/getCompanyByDomain
+    accounts: {}
+    input:
+      domain: '""'
