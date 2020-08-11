@@ -14,6 +14,17 @@ tasks:
       trackBy: ''
       array: ''
       input: {}
+  task1:
+    schedule: cron(5 8 ? * 0)
+    action: hubspot/getCompanyByDomain
+    accounts: {}
+    monitor:
+      action: hubspot/getCompanyByDomain
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        domain: '""'
 paths:
   /paths0:
     get:
