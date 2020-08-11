@@ -30,6 +30,10 @@ paths:
     get:
       action: linkedin/companies.get
       accounts: {}
+  /paths1:
+    get:
+      action: hubspot/getCompanyByDomain
+      accounts: {}
 tests:
   test:
     action: linkedin/companies.get
